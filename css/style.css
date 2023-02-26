@@ -47,6 +47,7 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    margin: 0;
 }
 
 figcaption,
@@ -4093,7 +4094,7 @@ textarea.form-control {
 .carousel-wrap {
   margin: 90px auto;
   padding: 0 5%;
-  width: 80%;
+
   position: relative;
 }
 
@@ -4127,4 +4128,14 @@ textarea.form-control {
   right: -30px !important;
   margin-top: -6em;
   position: absolute !important;
+}
+.bg-orange{
+  background-color: #ff7900 !important;
+}
+a , a:active , a:hover , a:focus{
+  text-decoration: none !important;
+}
+.card{
+  width: 20em !important;
+  height: 20em !important;
 }
